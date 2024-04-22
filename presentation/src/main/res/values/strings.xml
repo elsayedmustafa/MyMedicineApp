@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Medicine App</string>
+
+    <string name="error_username_blank">"Username must not be blank."</string>
+    <string name="loading">"Looding.."</string>
+    <string name="login">"Login"</string>
+    <string name="user_name">"UserName"</string>
+    <string name="password">"Password"</string>
+    <string name="warning">"Warning!"</string>
+    <string name="okay">"Okay"</string>
+    <string name="login_again">"Login Again"</string>
+    <string name="hello">"Hello"</string>
+    <string name="next">Next</string>
+    <string name="no_internet_exception">No Internet</string>
+    <string name="timeout_exception">Timeout</string>
+    <string name="unexpected_exception">Unexpected</string>
+    <string name="medicine_name">Medicine Name</string>
+    <string name="medicine_strength">Medicine Strength</string>
+    <string name="medicine_dose">Medicine Dose</string>
+    <string name="no_medicines">No Medicines</string>
+    <string name="details">Details</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="good_evening">Good Evening</string>
+    <string name="good_night">Good Night</string>
+
+</resources>
