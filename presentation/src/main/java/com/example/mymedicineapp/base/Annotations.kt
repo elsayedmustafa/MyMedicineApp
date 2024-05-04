@@ -1,4 +1,4 @@
-package com.banquemisr.visitapp.presentation.base
+package com.example.mymedicineapp.base
 
 import javax.inject.Qualifier
 

@@ -2,8 +2,8 @@ package com.example.mymedicineapp.medicines
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.viewModelScope
-import com.banquemisr.visitapp.presentation.base.IoDispatcher
 import com.example.mymedicineapp.base.BaseViewModel
+import com.example.mymedicineapp.base.IoDispatcher
 import com.example.mymedicineapp.base.LoadingViewState
 import com.example.mymedicineapp.medicine.model.MedicineDomainModel
 import com.example.mymedicineapp.medicine.usecase.MedicinesUseCase
