@@ -9,6 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -19,10 +20,11 @@ fun LoginScreenMobile(
 loginCallback: (userName:String) -> Unit ) {
 
     var isUserNameHintFocused by remember { mutableStateOf(false) }
-    var username by remember { mutableStateOf("") }
+    var username by rememberSaveable { mutableStateOf("") }
 
         Column(
-            modifier = Modifier.padding(top = 35.dp)
+            modifier = Modifier
+                .padding(top = 35.dp)
                 .background(color = Color.White)
         ) {
 
